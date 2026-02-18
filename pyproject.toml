@@ -1,0 +1,18 @@
+[project]
+name = "law_management"
+authors = [
+    { name = "Solufy", email = "contact@solufy.in" }
+]
+description = "Law Management, Legal Management, This module allows to manage lawyers,clients, matters(cases), trials and its invoicing."
+requires-python = ">=3.10"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # This is usually handled by bench, but good for reference
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.app]
+required_apps = ["erpnext"]
