@@ -2,7 +2,6 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "Matter.#####",
- "creation": "2022-07-04 15:32:47.286047",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -207,11 +206,8 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-06 17:04:25.943853",
- "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Matter",
- "owner": "Administrator",
  "permissions": [
   {
    "create": 1,

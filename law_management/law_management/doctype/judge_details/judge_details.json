@@ -2,7 +2,6 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "JD.#####",
- "creation": "2022-07-04 15:58:12.990894",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -26,11 +25,8 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-04 15:58:12.990894",
- "modified_by": "Administrator",
  "module": "Law Management",
  "name": "Judge Details",
- "owner": "Administrator",
  "permissions": [
   {
    "create": 1,
