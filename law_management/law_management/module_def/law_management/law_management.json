@@ -1,7 +1,5 @@
 {
     "app_name": "law_management",
     "doctype": "Module Def",
-    "module_name": "Law Management",
-    "name": "Law Management",
-    "packageName": "Law Management"
+    "name": "Law Management"
 }

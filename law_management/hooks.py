@@ -128,7 +128,7 @@ doc_events = {
             'law_management.law_management.doctype.matter.matter.validate'
         ],
   	},
-};
+}
 
 
 # Scheduled Tasks
