@@ -21,6 +21,7 @@ fixtures = [
 			"name": ["in", ["Matter", "Client Request"]]
 		}
 	},
+	"Workflow State",
 	"Custom Field",
 	"Property Setter"
 ]
