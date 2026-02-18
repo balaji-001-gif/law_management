@@ -12,13 +12,16 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
-fixtures = [{
-	"doctype": "Workflow",
+fixtures = [
+	{
+		"doctype": "Workflow",
 		"filters": {
-			"name": [ "in", ["Matter", "Client Request"] ]
-			}
-		},
-	]
+			"name": ["in", ["Matter", "Client Request"]]
+		}
+	},
+	"Custom Field",
+	"Property Setter"
+]
 
 
 # include js, css files in header of desk.html
