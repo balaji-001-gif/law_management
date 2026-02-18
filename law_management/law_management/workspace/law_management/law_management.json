@@ -26,12 +26,15 @@
             "doc_view": "List",
             "label": "Lawyer",
             "link_to": "Customer",
+            "stats_filter": "{\n    \"is_lawyer\": [\"!=\" , [\"0\"]]\n}\n",
             "type": "DocType"
         },
         {
+            "color": "",
             "doc_view": "List",
             "label": "Client",
             "link_to": "Customer",
+            "stats_filter": "{\n    \"is_client\": [\"!=\" , [\"0\"]]\n}\n",
             "type": "DocType"
         }
     ],
@@ -50,7 +53,7 @@
             "label": "Categories",
             "link_to": "Categories",
             "link_type": "DocType",
-            "onboard": 1,
+            "onboard": 0,
             "type": "Link"
         },
         {
@@ -68,7 +71,7 @@
             "label": "Practice Area",
             "link_to": "Practice Area",
             "link_type": "DocType",
-            "onboard": 1,
+            "onboard": 0,
             "type": "Link"
         },
         {
@@ -120,6 +123,7 @@
             "hidden": 0,
             "is_query_report": 0,
             "label": "Transactions",
+            "link_to": "",
             "link_type": "DocType",
             "onboard": 0,
             "type": "Card Break"
@@ -142,5 +146,8 @@
             "onboard": 1,
             "type": "Link"
         }
-    ]
+    ],
+    "modified": "2024-02-18 15:45:00.000000",
+    "modified_by": "Administrator",
+    "shortcuts_label": "Law Management"
 }
