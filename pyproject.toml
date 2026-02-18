@@ -1,11 +1,11 @@
 [project]
 name = "law_management"
+version = "0.0.1"
 authors = [
     { name = "Solufy", email = "contact@solufy.in" }
 ]
 description = "Law Management, Legal Management, This module allows to manage lawyers,clients, matters(cases), trials and its invoicing."
 requires-python = ">=3.10"
-dynamic = ["version"]
 dependencies = [
     # "frappe~=15.0.0" # This is usually handled by bench, but good for reference
 ]
