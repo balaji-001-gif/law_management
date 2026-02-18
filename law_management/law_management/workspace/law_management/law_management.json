@@ -1,14 +1,88 @@
 {
+    "category": "Modules",
     "doctype": "Workspace",
-    "name": "Law Management",
-    "label": "Law Management",
-    "module": "Law Management",
     "icon": "icon-scale",
     "indicator_color": "blue",
+    "is_standard": 1,
+    "label": "Law Management",
+    "module": "Law Management",
+    "name": "Law Management",
     "public": 1,
-    "is_hidden": 0,
-    "hide_custom": 0,
     "sequence_id": 1.0,
+    "links": [
+        {
+            "label": "Configurations",
+            "type": "Card Break"
+        },
+        {
+            "label": "Categories",
+            "link_to": "Categories",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Judge Details",
+            "link_to": "Judge Details",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Practice Area",
+            "link_to": "Practice Area",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Degrees",
+            "link_to": "Degrees",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Institutes",
+            "link_to": "Institutes",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Universities",
+            "link_to": "Universities",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Client Services",
+            "link_to": "Client Services",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Court",
+            "link_to": "Court",
+            "link_type": "DocType",
+            "type": "Link"
+        },
+        {
+            "label": "Transactions",
+            "link_to": "",
+            "link_type": "DocType",
+            "type": "Card Break"
+        },
+        {
+            "label": "Matter",
+            "link_to": "Matter",
+            "link_type": "DocType",
+            "onboard": 1,
+            "type": "Link"
+        },
+        {
+            "label": "Client Request",
+            "link_to": "Client Request",
+            "link_type": "DocType",
+            "onboard": 1,
+            "type": "Link"
+        }
+    ],
     "shortcuts": [
         {
             "doc_view": "List",
@@ -26,128 +100,16 @@
             "doc_view": "List",
             "label": "Lawyer",
             "link_to": "Customer",
-            "stats_filter": "{\n    \"is_lawyer\": [\"!=\" , [\"0\"]]\n}\n",
+            "stats_filter": "{\"is_lawyer\": [\"!=\" , [\"0\"]]}",
             "type": "DocType"
         },
         {
-            "color": "",
             "doc_view": "List",
             "label": "Client",
             "link_to": "Customer",
-            "stats_filter": "{\n    \"is_client\": [\"!=\" , [\"0\"]]\n}\n",
+            "stats_filter": "{\"is_client\": [\"!=\" , [\"0\"]]}",
             "type": "DocType"
         }
     ],
-    "links": [
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Configurations",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Card Break"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Categories",
-            "link_to": "Categories",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Judge Details",
-            "link_to": "Judge Details",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Practice Area",
-            "link_to": "Practice Area",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Degrees",
-            "link_to": "Degrees",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Institutes",
-            "link_to": "Institutes",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Universities",
-            "link_to": "Universities",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Client Services",
-            "link_to": "Client Services",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Court",
-            "link_to": "Court",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Transactions",
-            "link_to": "",
-            "link_type": "DocType",
-            "onboard": 0,
-            "type": "Card Break"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Matter",
-            "link_to": "Matter",
-            "link_type": "DocType",
-            "onboard": 1,
-            "type": "Link"
-        },
-        {
-            "hidden": 0,
-            "is_query_report": 0,
-            "label": "Client Request",
-            "link_to": "Client Request",
-            "link_type": "DocType",
-            "onboard": 1,
-            "type": "Link"
-        }
-    ],
-    "modified": "2024-02-18 15:45:00.000000",
-    "modified_by": "Administrator",
     "shortcuts_label": "Law Management"
 }
