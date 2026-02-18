@@ -1,11 +1,7 @@
 {
- "app_name": "law_management",
- "creation": "2022-07-04 15:41:55.899609",
- "docstatus": 0,
- "doctype": "Module Def",
- "modified": "2022-07-04 15:41:55.899609",
- "modified_by": "Administrator",
- "module_name": "Law Management",
- "name": "Law Management",
- "owner": "Administrator"
+    "app_name": "law_management",
+    "doctype": "Module Def",
+    "module_name": "Law Management",
+    "name": "Law Management",
+    "packageName": "Law Management"
 }
