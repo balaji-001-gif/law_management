@@ -21,7 +21,8 @@
   "property": "in_list_view",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -45,7 +46,8 @@
   "property": "in_list_view",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -69,7 +71,8 @@
   "property": "in_list_view",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -93,7 +96,8 @@
   "property": "in_list_view",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -117,7 +121,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -141,7 +146,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -165,7 +171,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -189,7 +196,8 @@
   "property": "default",
   "property_type": "Text",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -213,7 +221,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -237,7 +246,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -261,7 +271,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -285,7 +296,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -309,7 +321,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -333,7 +346,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -357,7 +371,8 @@
   "property": "options",
   "property_type": "",
   "row_name": null,
-  "value": "SINV-.YY.-\nSRET-.YY.-\n\nACC-SINV-.YYYY.-\nACC-SINV-RET-.YYYY.-"
+  "value": "SINV-.YY.-\nSRET-.YY.-\n\nACC-SINV-.YYYY.-\nACC-SINV-RET-.YYYY.-",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -381,7 +396,8 @@
   "property": "mandatory_depends_on",
   "property_type": "Code",
   "row_name": null,
-  "value": ""
+  "value": "",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -405,7 +421,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -429,7 +446,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -453,7 +471,8 @@
   "property": "print_hide",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -477,7 +496,8 @@
   "property": "read_only",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -501,7 +521,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -525,7 +546,8 @@
   "property": "reqd",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -549,7 +571,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -573,7 +596,8 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "0"
+  "value": "0",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -597,7 +621,8 @@
   "property": "mandatory_depends_on",
   "property_type": "Code",
   "row_name": null,
-  "value": ""
+  "value": "",
+  "doctype": "Property Setter"
  },
  {
   "_assign": null,
@@ -621,6 +646,7 @@
   "property": "hidden",
   "property_type": "Check",
   "row_name": null,
-  "value": "1"
+  "value": "1",
+  "doctype": "Property Setter"
  }
 ]
